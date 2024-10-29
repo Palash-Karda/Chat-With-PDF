@@ -2,3 +2,6 @@ streamlit
 llama_index
 pandas
 numpy
+llama_index.embeddings.huggingface
+llama_index.llms.huggingface_api
+llama_index.readers.file
