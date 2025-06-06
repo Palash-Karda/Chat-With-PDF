@@ -1,10 +1,27 @@
+# Core App Requirements
 streamlit
+python-dotenv
+
+# PDF Handling
 PyPDF2
+
+# LangChain and Integrations
 langchain
-langchain-community
 langchain-core
+langchain-community
 langchain-cohere
 cohere
-python-dotenv
+
+# Embeddings
 sentence-transformers
+transformers
+torch
+huggingface-hub
+
+# Vector Store (CPU version for compatibility with Streamlit Cloud)
+faiss-cpu
+
+# Optional (for safety and completeness)
+tqdm
+
 
